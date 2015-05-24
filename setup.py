@@ -14,6 +14,8 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
+        "etl_utils",
+        "nltk",
     ],
     classifiers=[
         'Intended Audience :: Developers',
